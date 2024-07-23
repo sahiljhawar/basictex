@@ -14,7 +14,7 @@ jobs:
       run: |
         brew update
         brew install --cask basictex
-        sudo tlmgr update --self
+        # sudo tlmgr update --self
 
     - name: Verify BasicTeX Installation
       run: |

@@ -20,8 +20,6 @@ jobs:
     - name: Verify BasicTeX Installation
       run: |
         ls -l /Library/TeX/texbin
-        which pdflatex
-        which tlmgr
 
     - name: Check PATH
       run: echo $PATH
